@@ -1,0 +1,28 @@
+{
+  "name": "@lovelymai/app-router",
+  "version": "1.6.0",
+  "description": "一个专为希望模拟原生 App 的 Web 应用设计的 Vue 3 多堆栈路由器",
+  "license": "MIT",
+  "type": "module",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/app-router.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && vue-tsc -p tsconfig.build.json",
+    "check": "vue-tsc"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vue": "^3.5.34",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.10"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  }
+}

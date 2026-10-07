@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+
+# Test
+src/App.vue
+src/main.ts
+index.html
